@@ -16,6 +16,15 @@
 		0DABD9CC1DF5A79300F4ADD9 /* CollectionDemoSlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DABD9CB1DF5A79300F4ADD9 /* CollectionDemoSlideTests.m */; };
 		0DABD9D71DF5A79300F4ADD9 /* CollectionDemoSlideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DABD9D61DF5A79300F4ADD9 /* CollectionDemoSlideUITests.m */; };
 		0DABD9E51DF5AC7500F4ADD9 /* titleList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DABD9E41DF5AC7500F4ADD9 /* titleList.plist */; };
+		0DDCC5291DF6910800A23E19 /* SlideCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC5281DF6910800A23E19 /* SlideCollectionViewCell.m */; };
+		0DDCC52C1DF698A900A23E19 /* SlideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC52B1DF698A900A23E19 /* SlideModel.m */; };
+		0DDCC5321DF69EFC00A23E19 /* HP_NString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC52F1DF69EFC00A23E19 /* HP_NString.m */; };
+		0DDCC5331DF69EFC00A23E19 /* HP_UIColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC5311DF69EFC00A23E19 /* HP_UIColorUtils.m */; };
+		0DDCC5361DF69F6500A23E19 /* UIView+PositionAndSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC5351DF69F6500A23E19 /* UIView+PositionAndSize.m */; };
+		0DDCC5391DF6A02600A23E19 /* app_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC5381DF6A02600A23E19 /* app_add@2x.png */; };
+		0DDCC53B1DF6A02E00A23E19 /* app_del@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC53A1DF6A02E00A23E19 /* app_del@2x.png */; };
+		0DDCC53D1DF6A03400A23E19 /* app_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC53C1DF6A03400A23E19 /* app_ok@2x.png */; };
+		0DDCC5401DF6A93A00A23E19 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC53F1DF6A93A00A23E19 /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,21 @@
 		0DABD9D61DF5A79300F4ADD9 /* CollectionDemoSlideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionDemoSlideUITests.m; sourceTree = "<group>"; };
 		0DABD9D81DF5A79300F4ADD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DABD9E41DF5AC7500F4ADD9 /* titleList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = titleList.plist; sourceTree = "<group>"; };
+		0DDCC5271DF6910800A23E19 /* SlideCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideCollectionViewCell.h; sourceTree = "<group>"; };
+		0DDCC5281DF6910800A23E19 /* SlideCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideCollectionViewCell.m; sourceTree = "<group>"; };
+		0DDCC52A1DF698A900A23E19 /* SlideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideModel.h; sourceTree = "<group>"; };
+		0DDCC52B1DF698A900A23E19 /* SlideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideModel.m; sourceTree = "<group>"; };
+		0DDCC52E1DF69EFC00A23E19 /* HP_NString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_NString.h; sourceTree = "<group>"; };
+		0DDCC52F1DF69EFC00A23E19 /* HP_NString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_NString.m; sourceTree = "<group>"; };
+		0DDCC5301DF69EFC00A23E19 /* HP_UIColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HP_UIColorUtils.h; sourceTree = "<group>"; };
+		0DDCC5311DF69EFC00A23E19 /* HP_UIColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HP_UIColorUtils.m; sourceTree = "<group>"; };
+		0DDCC5341DF69F6500A23E19 /* UIView+PositionAndSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PositionAndSize.h"; sourceTree = "<group>"; };
+		0DDCC5351DF69F6500A23E19 /* UIView+PositionAndSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PositionAndSize.m"; sourceTree = "<group>"; };
+		0DDCC5381DF6A02600A23E19 /* app_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_add@2x.png"; sourceTree = "<group>"; };
+		0DDCC53A1DF6A02E00A23E19 /* app_del@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_del@2x.png"; sourceTree = "<group>"; };
+		0DDCC53C1DF6A03400A23E19 /* app_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_ok@2x.png"; sourceTree = "<group>"; };
+		0DDCC53E1DF6A93A00A23E19 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		0DDCC53F1DF6A93A00A23E19 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +131,14 @@
 				0DABD9B51DF5A79300F4ADD9 /* AppDelegate.m */,
 				0DABD9B71DF5A79300F4ADD9 /* ViewController.h */,
 				0DABD9B81DF5A79300F4ADD9 /* ViewController.m */,
+				0DDCC5271DF6910800A23E19 /* SlideCollectionViewCell.h */,
+				0DDCC5281DF6910800A23E19 /* SlideCollectionViewCell.m */,
+				0DDCC52A1DF698A900A23E19 /* SlideModel.h */,
+				0DDCC52B1DF698A900A23E19 /* SlideModel.m */,
+				0DDCC53E1DF6A93A00A23E19 /* DataManager.h */,
+				0DDCC53F1DF6A93A00A23E19 /* DataManager.m */,
+				0DDCC52D1DF69EF300A23E19 /* Tool */,
+				0DDCC5371DF6A01500A23E19 /* Images */,
 				0DABD9E41DF5AC7500F4ADD9 /* titleList.plist */,
 				0DABD9BA1DF5A79300F4ADD9 /* Main.storyboard */,
 				0DABD9BD1DF5A79300F4ADD9 /* Assets.xcassets */,
@@ -141,6 +173,29 @@
 				0DABD9D81DF5A79300F4ADD9 /* Info.plist */,
 			);
 			path = CollectionDemoSlideUITests;
+			sourceTree = "<group>";
+		};
+		0DDCC52D1DF69EF300A23E19 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0DDCC5341DF69F6500A23E19 /* UIView+PositionAndSize.h */,
+				0DDCC5351DF69F6500A23E19 /* UIView+PositionAndSize.m */,
+				0DDCC52E1DF69EFC00A23E19 /* HP_NString.h */,
+				0DDCC52F1DF69EFC00A23E19 /* HP_NString.m */,
+				0DDCC5301DF69EFC00A23E19 /* HP_UIColorUtils.h */,
+				0DDCC5311DF69EFC00A23E19 /* HP_UIColorUtils.m */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		0DDCC5371DF6A01500A23E19 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0DDCC5381DF6A02600A23E19 /* app_add@2x.png */,
+				0DDCC53A1DF6A02E00A23E19 /* app_del@2x.png */,
+				0DDCC53C1DF6A03400A23E19 /* app_ok@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +306,10 @@
 			files = (
 				0DABD9C11DF5A79300F4ADD9 /* LaunchScreen.storyboard in Resources */,
 				0DABD9BE1DF5A79300F4ADD9 /* Assets.xcassets in Resources */,
+				0DDCC53B1DF6A02E00A23E19 /* app_del@2x.png in Resources */,
 				0DABD9BC1DF5A79300F4ADD9 /* Main.storyboard in Resources */,
+				0DDCC53D1DF6A03400A23E19 /* app_ok@2x.png in Resources */,
+				0DDCC5391DF6A02600A23E19 /* app_add@2x.png in Resources */,
 				0DABD9E51DF5AC7500F4ADD9 /* titleList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,9 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDCC5291DF6910800A23E19 /* SlideCollectionViewCell.m in Sources */,
 				0DABD9B91DF5A79300F4ADD9 /* ViewController.m in Sources */,
+				0DDCC5361DF69F6500A23E19 /* UIView+PositionAndSize.m in Sources */,
+				0DDCC52C1DF698A900A23E19 /* SlideModel.m in Sources */,
 				0DABD9B61DF5A79300F4ADD9 /* AppDelegate.m in Sources */,
 				0DABD9B31DF5A79300F4ADD9 /* main.m in Sources */,
+				0DDCC5321DF69EFC00A23E19 /* HP_NString.m in Sources */,
+				0DDCC5401DF6A93A00A23E19 /* DataManager.m in Sources */,
+				0DDCC5331DF69EFC00A23E19 /* HP_UIColorUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +493,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollectionDemoSlide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wxk.CollectionDemoSlide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +505,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollectionDemoSlide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wxk.CollectionDemoSlide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,6 +577,7 @@
 				0DABD9DD1DF5A79300F4ADD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DABD9DE1DF5A79300F4ADD9 /* Build configuration list for PBXNativeTarget "CollectionDemoSlideTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +586,7 @@
 				0DABD9E01DF5A79300F4ADD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DABD9E11DF5A79300F4ADD9 /* Build configuration list for PBXNativeTarget "CollectionDemoSlideUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +595,7 @@
 				0DABD9E31DF5A79300F4ADD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
