@@ -25,6 +25,10 @@
 		0DDCC53B1DF6A02E00A23E19 /* app_del@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC53A1DF6A02E00A23E19 /* app_del@2x.png */; };
 		0DDCC53D1DF6A03400A23E19 /* app_ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DDCC53C1DF6A03400A23E19 /* app_ok@2x.png */; };
 		0DDCC5401DF6A93A00A23E19 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDCC53F1DF6A93A00A23E19 /* DataManager.m */; };
+		0DFCB5F51DF9353A004BABBB /* DragCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB5F41DF9353A004BABBB /* DragCellCollectionView.m */; };
+		0DFCB5FA1DF9444C004BABBB /* CollectionReusableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB5F71DF9444C004BABBB /* CollectionReusableFooterView.m */; };
+		0DFCB5FB1DF9444C004BABBB /* CollectionReusableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB5F91DF9444C004BABBB /* CollectionReusableHeaderView.m */; };
+		0DFCB5FE1DF954C4004BABBB /* ChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB5FD1DF954C4004BABBB /* ChooseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,14 @@
 		0DDCC53C1DF6A03400A23E19 /* app_ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app_ok@2x.png"; sourceTree = "<group>"; };
 		0DDCC53E1DF6A93A00A23E19 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		0DDCC53F1DF6A93A00A23E19 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		0DFCB5F31DF9353A004BABBB /* DragCellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragCellCollectionView.h; sourceTree = "<group>"; };
+		0DFCB5F41DF9353A004BABBB /* DragCellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragCellCollectionView.m; sourceTree = "<group>"; };
+		0DFCB5F61DF9444C004BABBB /* CollectionReusableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableFooterView.h; sourceTree = "<group>"; };
+		0DFCB5F71DF9444C004BABBB /* CollectionReusableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableFooterView.m; sourceTree = "<group>"; };
+		0DFCB5F81DF9444C004BABBB /* CollectionReusableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableHeaderView.h; sourceTree = "<group>"; };
+		0DFCB5F91DF9444C004BABBB /* CollectionReusableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableHeaderView.m; sourceTree = "<group>"; };
+		0DFCB5FC1DF954C4004BABBB /* ChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseView.h; sourceTree = "<group>"; };
+		0DFCB5FD1DF954C4004BABBB /* ChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,12 +143,20 @@
 				0DABD9B51DF5A79300F4ADD9 /* AppDelegate.m */,
 				0DABD9B71DF5A79300F4ADD9 /* ViewController.h */,
 				0DABD9B81DF5A79300F4ADD9 /* ViewController.m */,
+				0DFCB5FC1DF954C4004BABBB /* ChooseView.h */,
+				0DFCB5FD1DF954C4004BABBB /* ChooseView.m */,
+				0DFCB5F31DF9353A004BABBB /* DragCellCollectionView.h */,
+				0DFCB5F41DF9353A004BABBB /* DragCellCollectionView.m */,
 				0DDCC5271DF6910800A23E19 /* SlideCollectionViewCell.h */,
 				0DDCC5281DF6910800A23E19 /* SlideCollectionViewCell.m */,
 				0DDCC52A1DF698A900A23E19 /* SlideModel.h */,
 				0DDCC52B1DF698A900A23E19 /* SlideModel.m */,
 				0DDCC53E1DF6A93A00A23E19 /* DataManager.h */,
 				0DDCC53F1DF6A93A00A23E19 /* DataManager.m */,
+				0DFCB5F61DF9444C004BABBB /* CollectionReusableFooterView.h */,
+				0DFCB5F71DF9444C004BABBB /* CollectionReusableFooterView.m */,
+				0DFCB5F81DF9444C004BABBB /* CollectionReusableHeaderView.h */,
+				0DFCB5F91DF9444C004BABBB /* CollectionReusableHeaderView.m */,
 				0DDCC52D1DF69EF300A23E19 /* Tool */,
 				0DDCC5371DF6A01500A23E19 /* Images */,
 				0DABD9E41DF5AC7500F4ADD9 /* titleList.plist */,
@@ -339,10 +359,14 @@
 				0DABD9B91DF5A79300F4ADD9 /* ViewController.m in Sources */,
 				0DDCC5361DF69F6500A23E19 /* UIView+PositionAndSize.m in Sources */,
 				0DDCC52C1DF698A900A23E19 /* SlideModel.m in Sources */,
+				0DFCB5FB1DF9444C004BABBB /* CollectionReusableHeaderView.m in Sources */,
 				0DABD9B61DF5A79300F4ADD9 /* AppDelegate.m in Sources */,
 				0DABD9B31DF5A79300F4ADD9 /* main.m in Sources */,
+				0DFCB5F51DF9353A004BABBB /* DragCellCollectionView.m in Sources */,
+				0DFCB5FA1DF9444C004BABBB /* CollectionReusableFooterView.m in Sources */,
 				0DDCC5321DF69EFC00A23E19 /* HP_NString.m in Sources */,
 				0DDCC5401DF6A93A00A23E19 /* DataManager.m in Sources */,
+				0DFCB5FE1DF954C4004BABBB /* ChooseView.m in Sources */,
 				0DDCC5331DF69EFC00A23E19 /* HP_UIColorUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

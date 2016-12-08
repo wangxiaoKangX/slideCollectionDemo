@@ -27,13 +27,13 @@ static DataManager *data = nil;
 {
     self = [super init];
     if (self) {
-        self.isEditing = NO;
+//        self.isEditing = NO;
         NSString *path = [[NSBundle mainBundle] pathForResource:@"titleList" ofType:@"plist"];
         NSArray *array = [NSArray arrayWithContentsOfFile:path];
         
         NSMutableArray *temp = @[].mutableCopy;
         self.titleArray = @[].mutableCopy;
-        [self.titleArray addObject:@"定制定制"];
+        [self.titleArray addObject:@"默认取的几个"];
         for (int i = 0; i < array.count; i ++) {
             NSMutableArray *tempSection = @[].mutableCopy;
             NSDictionary *dic = array[i];
@@ -50,7 +50,7 @@ static DataManager *data = nil;
             [temp addObject:tempSection.copy];
         }
         NSMutableArray *sectionOne = @[].mutableCopy;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {           // 初始加载的应用cell 加载几个
             SlideModel *model = temp[0][i];
             model.state = ServeSelected;
             [sectionOne addObject:model];

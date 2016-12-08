@@ -11,6 +11,10 @@
 			<string>团建建设</string>
 			<string>薪酬绩效</string>
 			<string>员工沟通</string>
+			<string>高分速度</string>
+			<string>魔法科学</string>
+			<string>英语</string>
+			<string>机器人</string>
 		</array>
 	</dict>
 	<dict>
@@ -23,6 +27,20 @@
 			<string>微博</string>
 			<string>支付宝</string>
 			<string>天气</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>另外的软件</string>
+		<key>list</key>
+		<array>
+			<string>测一测一</string>
+			<string>测二测二</string>
+			<string>测三</string>
+			<string>测四</string>
+			<string>测五六七八</string>
+			<string>测九</string>
+			<string>测十</string>
 		</array>
 	</dict>
 </array>
