@@ -33,7 +33,7 @@ static DataManager *data = nil;
         
         NSMutableArray *temp = @[].mutableCopy;
         self.titleArray = @[].mutableCopy;
-        [self.titleArray addObject:@"默认取的几个"];
+        [self.titleArray addObject:@"已经定制"];
         for (int i = 0; i < array.count; i ++) {
             NSMutableArray *tempSection = @[].mutableCopy;
             NSDictionary *dic = array[i];

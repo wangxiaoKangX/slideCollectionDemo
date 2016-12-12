@@ -31,6 +31,7 @@
         _label = [[UILabel alloc] initWithFrame:CGRectMake(x, y, w, h)];
         _label.textAlignment = NSTextAlignmentCenter;
         _label.textColor = [UIColor blackColor];
+        _label.font = [UIFont systemFontOfSize:16];
     }
     return _label;
 }

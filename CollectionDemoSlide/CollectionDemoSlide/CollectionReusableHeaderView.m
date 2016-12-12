@@ -42,7 +42,7 @@
 
     }else {
         [self.messageView removeFromSuperview];
-        NSLog(@"移除");
+//        NSLog(@"移除");
     }
 
 }

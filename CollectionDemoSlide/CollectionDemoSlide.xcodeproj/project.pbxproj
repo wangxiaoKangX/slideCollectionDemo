@@ -29,6 +29,7 @@
 		0DFCB5FA1DF9444C004BABBB /* CollectionReusableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB5F71DF9444C004BABBB /* CollectionReusableFooterView.m */; };
 		0DFCB5FB1DF9444C004BABBB /* CollectionReusableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB5F91DF9444C004BABBB /* CollectionReusableHeaderView.m */; };
 		0DFCB5FE1DF954C4004BABBB /* ChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB5FD1DF954C4004BABBB /* ChooseView.m */; };
+		0DFCB6011DF95DBB004BABBB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCB6001DF95DBB004BABBB /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		0DFCB5F91DF9444C004BABBB /* CollectionReusableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableHeaderView.m; sourceTree = "<group>"; };
 		0DFCB5FC1DF954C4004BABBB /* ChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseView.h; sourceTree = "<group>"; };
 		0DFCB5FD1DF954C4004BABBB /* ChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseView.m; sourceTree = "<group>"; };
+		0DFCB5FF1DF95DBB004BABBB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0DFCB6001DF95DBB004BABBB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 			children = (
 				0DABD9B41DF5A79300F4ADD9 /* AppDelegate.h */,
 				0DABD9B51DF5A79300F4ADD9 /* AppDelegate.m */,
+				0DFCB5FF1DF95DBB004BABBB /* MainViewController.h */,
+				0DFCB6001DF95DBB004BABBB /* MainViewController.m */,
 				0DABD9B71DF5A79300F4ADD9 /* ViewController.h */,
 				0DABD9B81DF5A79300F4ADD9 /* ViewController.m */,
 				0DFCB5FC1DF954C4004BABBB /* ChooseView.h */,
@@ -366,6 +371,7 @@
 				0DFCB5FA1DF9444C004BABBB /* CollectionReusableFooterView.m in Sources */,
 				0DDCC5321DF69EFC00A23E19 /* HP_NString.m in Sources */,
 				0DDCC5401DF6A93A00A23E19 /* DataManager.m in Sources */,
+				0DFCB6011DF95DBB004BABBB /* MainViewController.m in Sources */,
 				0DFCB5FE1DF954C4004BABBB /* ChooseView.m in Sources */,
 				0DDCC5331DF69EFC00A23E19 /* HP_UIColorUtils.m in Sources */,
 			);

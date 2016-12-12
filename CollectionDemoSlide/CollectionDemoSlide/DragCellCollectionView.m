@@ -109,8 +109,7 @@
 - (void)gestureBegan:(UILongPressGestureRecognizer *)longPressGesture{
 
     _originalIndexPath = [self indexPathForItemAtPoint:[longPressGesture locationOfTouch:0 inView:longPressGesture.view]];
-    if (_originalIndexPath.section == 0) {
-        //获取手指所在的cell
+    if (_originalIndexPath.section == 0) {    // 如果是第一个sectiondsfs       
         UICollectionViewCell *cell = [self cellForItemAtIndexPath:_originalIndexPath];
         self.dragCell = cell;
         UIView *tempMoveCell = [cell snapshotViewAfterScreenUpdates:NO];
@@ -167,8 +166,6 @@
     _longPressGesture.minimumPressDuration = minimumPressDuration;
 }
 
-
-
 #pragma mark - private methods
 
 - (void)moveCell{
@@ -183,7 +180,7 @@
         CGFloat spacingY = fabs(_tempMoveCell.center.y - cell.center.y);
         if (spacingX <= _tempMoveCell.bounds.size.width / 2.0f && spacingY <= _tempMoveCell.bounds.size.height / 2.0f) {
             _moveIndexPath = [self indexPathForCell:cell];
-            if (_moveIndexPath.section != 0) {
+            if (_moveIndexPath.section != 0) {   // 如果不是第一个section 不执行下面代码
                 return;
             }
             //更新数据源
